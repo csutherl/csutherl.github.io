@@ -123,7 +123,16 @@ Now that we have application code and a servlet to deploy, we need to setup the 
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>tomcat.getServer().await(rsion>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <tomcat-version>8.0.36</tomcat-version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>${tomcat-version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
