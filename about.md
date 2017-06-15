@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-\<Insert stuff about me here\>
+This blog has moved to <a href="https://cotysutherland.com/about/">https://cotysutherland.com/about/</a>!
